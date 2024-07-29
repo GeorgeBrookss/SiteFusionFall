@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'nova square', serif;
+    color: aliceblue;
+    font-weight: normal;
+}
+
+body{
+    background-image: url('https://wallpapers.com/images/hd/green-space-9li0y9azzd1apg2k.jpg');
+    background-size: contain;
+    
+    
+}
+
+header .logo{
+    top: 100px;
+    position: relative;
+    display: inline;
+    height: 200px;
+    left: 800px;
+    border: outset;
+    border-bottom-width: 10px;
+    border-color: rgba(7, 39, 7, 0.288);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-radius: 60cqmax;
+    background-image: url( "https://img1.picmix.com/output/stamp/normal/5/7/0/3/353075_f2d3c.gif");
+    background-repeat: repeat-x;
+    background-size: cover;
+    filter: brightness(200%);
+}
+
+.logo:hover{
+    background-image: url("https://img1.picmix.com/output/stamp/normal/8/4/3/0/260348_dcddb.gif");
+    filter: brightness(200%);
+}
+
+.logot{
+    position: absolute;
+    left: 505px;
+    top: -8px;
+}
+
+.logo3{
+    height: 420px;
+    position: absolute;
+    left: 350px;
+    top: 40px;
+
+}
+
+header nav{
+    display: flex;
+    padding: 14px;
+    position: absolute;       
+    top: 308px;
+    right: 155px;
+    border: outset;
+    border-color: rgba(39, 194, 39, 0.397);
+    background-image: url('https://i.pinimg.com/736x/8f/fc/15/8ffc157a0f9b7b2964855e51a4992981.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Nova square', serif;
+    margin: 28px;
+}
+
+header a{
+    font-family: 'Nova square', serif;
+    margin: 8px;
+    font-size: 28px;
+    color: aliceblue;
+    border: outset;
+    border-radius: 28px;
+    background-color: rgba(39, 194, 39, 0.345);
+}
+
+header a:hover{
+    background-image: url("https://media3.giphy.com/media/rVrE0tpvjcgcE/200w.gif?cid=6c09b952tuh5k3vi9ge0ngudnosgqbosmp81s81l5jkhra48&ep=v1_gifs_search&rid=200w.gif&ct=g");
+    border-color: chartreuse;
+    color: rgb(202, 253, 0)
+}
+
+#maps .container{
+    display: block;
+}
+
+.container{
+    display: flex;
+    font-size: 18px;
+    color: aliceblue;
+    padding: 14px;
+    border: outset;
+    border-radius: 28px;
+    background-color: rgba(39, 194, 39, 0.345);
+    font-family: 'Nova square', serif;
+    margin: 8px;
+    
+}
+
+section{
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 10px;
+    position: relative;
+    top: 200px;
+    background-color: rgba(8, 71, 8, 0.671);
+    width: 1700px;
+    left: 150px;    
+}
+
+section img{
+    height: 250px;
+    border: outset;
+    border-color: rgba(132, 247, 0, 0.776);
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+section img:hover{
+    border-color: rgba(0, 0, 0, 0);
+    height: 300px;
+    background-image: url("https://i.pinimg.com/originals/b4/c0/0a/b4c00a790c252dfce3d379ff1661b41a.gif");
+    border-radius: 10px;  
+    background-size: 100%;
+}
+
+#characters .container img{
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: center;
+    border: outset;
+    border-color: rgba(132, 247, 0, 0.281);
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+section .cadastro{
+    color: black;
+    filter: brightness(100%);
+    width: 200px;
+    
+    
+}
+
+#register{
+    position: relative;
+    left: 150px;
+    
+    width: 300px;
+    background-color: rgba(25, 250, 5, 0.249);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    border: inset;
+    border-color: green;
+    display: block;
+    padding-right: 88px;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 220px;
+    margin-bottom: 2px;
+    padding: 2px;
+    color: black;
+}
+button{
+    font-size: 30px;
+    color: rgb(26, 184, 26);
+    background-color: rgba(2, 43, 2, 0.614);
+    height: 40px;
+    width: 60px;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+button:hover{
+    border-color: aliceblue;
+    color: red;
+}
+
+form textarea{
+    resize: none;
+    height: 90px;
+    display: flex;
+}
+
+.sites img{
+    height: 50px;
+    width: 50px;
+    
+}
+
+.sites img:hover{
+    height: 70px;
+    width: 70px;
+}
+
+footer{
+    position: relative;
+    text-align: center;
+    top: 200px;
+    padding: 8px;
+    border: outset;
+    border-color: rgba(34, 255, 0, 0.217);
+    background-color: rgba(0, 161, 64, 0.575);
+    
+}
+
+.Numbuh2 {
+    height: 150px;
+    position: absolute;
+    left: 390px;
+    top: 1840px;
+    
+}
+
